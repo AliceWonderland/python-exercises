@@ -24,7 +24,7 @@ Explanation:
 * Place this in an input.txt file
 * Run py file from command line using 'python ./decoder.py'
 
-# Created Using Google IDX o.O
+## Created Using Google IDX o.O
 Get started by customizing your environment (defined in the .idx/dev.nix file) with the tools and IDE extensions you'll need for your project!
 
 Learn more at https://developers.google.com/idx/guides/customize-idx-env
