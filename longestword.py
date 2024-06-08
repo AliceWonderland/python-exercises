@@ -1,23 +1,18 @@
 #find longest word in list of words
 
-#get len, if len > than prev save word
-#if more than one longest word?
+#compare lens, save word if greater len
+#if more than one longest word? only takes the first one
 
 def longestword(wordlist):
     finalword = ""
-    finallen = 0
-
     for word in wordlist:
-        print(finallen, len(word), finalword)
-        if len(word) > finallen:
-            finallen = len(word)
+        if len(word) > len(finalword):
             finalword = word
 
     return finalword
 
 words = ["", "a", "ab", "abc", "apple", "banana", "cherry", "kiwi", "mango", "watermelon", "blackcurrant", "orange", "lychee"]
 print(longestword(words))
-
 
 #return max num in list using max()
 a = (1, 5, 3, 9)

@@ -1,5 +1,4 @@
-#Create a function that takes a list of numbers
-#Returns the sum of all the numbers in the list.
+#get sum of all numbers in list.
 
 import random
 
