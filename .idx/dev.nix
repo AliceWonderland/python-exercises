@@ -10,11 +10,10 @@
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
-    pkgs.python-launcher
+    # pkgs.python-launcher
     pkgs.python3
-    pkgs.cope
-    pkgs.python311Packages.pip
-    # pkgs.python312
+    # pkgs.cope
+    pkgs.python312
   ];
   # Sets environment variables in the workspace
   env = {};
